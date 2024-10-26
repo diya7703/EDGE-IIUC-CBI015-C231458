@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Tailwind Genz Portfolio by Diya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output/style.css">
+  <style>
+    .bebas-neue-regular {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-[#FFFBF0] h-screen">
+    <nav class="w-full top-0 bg-center">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        <div class="flex items-center gap-2 ">
+          <img src="images/penguin.png">
+          <span class="text-3xl font-bold text-lime-500">Genz</span>
+          <span class="text-3xl font-bold text-cyan-950">Fashion</span>
+          <img src="images/yellow-dot.png" class="px-20">
+        </div>
+        <ul class=" hidden md:flex space-x-10 text-gray-900 font-medium">
+          <li class="hover:font-bold">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:font-bold">
+            <a href="#">Product</a>
+          </li>
+          <li class="hover:font-bold">
+            <a href="#">About us</a>
+          </li>
+          <li class="hover:font-bold">
+            <a href="#">Contact us</a>
+          </li>
+        </ul>
+        <div class="space-y-1 md:hidden cursor-pointer">
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+          <div class="w-6 h-0.5 bg-black"></div>
+        </div>
+      </div>
+    </nav>
+    <!--nav end-->
+    <section class="flex items-center justify-around ">
+      <div>
+        <h1 class="text-7xl bebus-neue-regular"><span class="text-[#FABE4C]">Be the Genzs</span><br> of Winter</h1>
+        <p class="text-base pb-4">Lorem Ipsum is simply dummy text of the printing<br> and typesetting industry.</p>
+        <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-9 rounded-lg"><img class="w-6 h-6 inline pr-2"
+            src="images/small-cart.png"> BUY NOW</button>
+      </div>
+      <div>
+        <img class="absolute bottom-10 right-10" src="images/model.png">
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <!--women collection-->
+    <section class="flex flex-col container items-start gap-28 mx-auto px-[10px]">
+      <div class="relative text-black">
+        <h2 class="text-5xl pt-10 bebus-neue-regular text-[#363958] font-semibold">WOMEN JACKET</h2>
+      </div>
+      <div class="grid grid-cols-3 gap-10">
+        <div class="bg-white shadow-lg rounded-2xl p-7 ">
+          <div class=" w-full h-auto rounded-md p-10"><img src="images/jacket-1.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Yellow Coat Jacket</h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] font-medium text-base py-4 px-5 rounded-lg"><img
+                class="w-6 h-6 inline pr-2" src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-7">
+          <div class="w-full h-auto rounded-md p-10"><img src="images/jacket-2.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl ">Ladies Jacket</h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-5 rounded-lg"><img class="w-6 h-6 inline pr-2"
+                src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-7">
+          <div class="w-full h-auto rounded-md p-10"><img src="images/jacket-3.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Leather Jacket</h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-5 rounded-lg"><img class="w-6 h-6 inline pr-2"
+                src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!--man collection-->
+    <section class="flex flex-col container items-start gap-28 mx-auto px-[10px]">
+      <h2 class="text-5xl pt-10 bebus-neue-regular text-[#363958] font-semibold">MEN JACKET</h2>
+      <div class="grid grid-cols-3 gap-10">
+        <div class="bg-white shadow-lg rounded-2xl p-7">
+          <div class="w-full h-auto rounded-md p-10"><img src="images/jacket-4.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Men Snowboard Jacket </h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-5 rounded-lg"><img class="w-6 h-6 inline pr-2"
+                src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-7">
+          <div class="w-full h-auto rounded-md p-10"><img src="images/jacket-5.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Men Leather Jackets</h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-5 rounded-lg"><img class="w-6 h-6 inline pr-2"
+                src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-2xl p-7">
+          <div class="w-full h-auto rounded-md p-10"><img src="images/jacket-6.png " alt="">
+          </div>
+          <div class="Description">
+            <h2 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Men Casual Jackets</h2>
+            <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry.</p>
+          </div>
+          <div class="actions flex gap-4">
+            <h2 class="text-3xl text-[#FABE4C] font-bold">$234</h2>
+            <button class="bg-[#A4BC46] text-[#FFFFFF] text-base py-4 px-5 rounded-lg"><img class="w-6 h-6 inline pr-2"
+                src="images/small-cart.png" alt=""> BUY NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="">
+    <section class="container mx-auto py-10 px-5  grid gap-10 grid-cols-2  items-center justify-between">
+      <!--div-1-->
+      <div class=" grid grid-rows-3 gap-5">
+        <!--box-1-->
+        <div class="flex bg-white shadow-md rounded-2xl gap-x-10 py-3">
+          <img src="images/icon/house.png" class="w-20 h-20">
+          <div>
+            <h3 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Find the Perfect Fit</h3>
+            <p class="text-[#3E3E3E]">Everybody is different, which is why we<br> offer styles for every body.</p>
+          </div>
+        </div>
+        <!--box-2-->
+        <div class="flex bg-white shadow-md rounded-2xl gap-x-10 py-3 ">
+          <img src="images/icon/box.png" class="w-20 h-20">
+          <div>
+            <h3 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Free Exchanges</h3>
+            <p>One of the many reasons you can shop <br> with peace of mind.</p>
+          </div>
+        </div>
+        <!--box-3-->
+        <div class="flex bg-white shadow-md rounded-2xl gap-x-10 py-3 ">
+          <img src="images/icon/question.png" class="w-20 h-20">
+          <div>
+            <h3 class="text-2xl font-medium text-[#363958;] pb-4 sm:text-3xl">Contact Our Seller</h3>
+            <p>They are here to help you. That's quite <br>literally what we pay them for.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!--div-2-->
+      <div>
+        <img src="images/shopping.png">
+      </div>
+
+
+    </section>
+  </footer>
+</body>
+
+</html>
